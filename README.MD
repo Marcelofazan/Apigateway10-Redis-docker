@@ -25,7 +25,7 @@ dotnet dev-certs https -ep %USERPROFILE%\.dotnet\corefx\cryptography\x509stores\
 C:\Users\[SEU_USUARIO]\.dotnet\corefx\cryptography\x509stores\mycerts
 ```
 
-#### Executar a aplicação
+#### 🔄 Executar a aplicação
 
 VSCode Terminal [1] - Abrir Container
 ```bash
