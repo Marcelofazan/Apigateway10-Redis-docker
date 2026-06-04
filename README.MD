@@ -1,6 +1,8 @@
-## ApiGateway10-RedisCache-docker
+## 🚀 ApiGateway10-RedisCache-docker
 Exemplo de utilização de criação de ApiGateway com utilização de cache em Redis
 
+
+#### 📁 Requisitos do Projeto
 - Limpe os certificados existentes
 ```bash
 dotnet dev-certs https --clean
@@ -25,6 +27,8 @@ dotnet dev-certs https -ep %USERPROFILE%\.dotnet\corefx\cryptography\x509stores\
 ```bash
 C:\Users\[SEU_USUARIO]\.dotnet\corefx\cryptography\x509stores\mycerts
 ```
+
+#### Executar a aplicação
 
 VSCode Terminal [1] - Abrir Container
 ```bash
@@ -73,7 +77,7 @@ netstat -ano | findstr :5100 ou netstat -ano | findstr :5101
 taskkill /F /PID <NUMERO_DO_PID>
 ```
 
-#### Redis
+#### 🧪 Executar Redis
 Abra o terminal: Abra o Prompt de Comando (CMD) ou PowerShell no Windows.
 
 Inicie o cliente: Digite o comando abaixo e pressione Enter:
