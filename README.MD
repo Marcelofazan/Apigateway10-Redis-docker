@@ -3,23 +3,15 @@ Exemplo de utilização de criação de ApiGateway com utilização de cache em 
 
 
 #### 📁 Requisitos do Projeto
-- Limpe os certificados existentes
+- Limpe os certificados existentes e Gere e confie em um novo certificado local
 ```bash
 dotnet dev-certs https --clean
-```
-
-- Gere e confie em um novo certificado local
-```bash
 dotnet dev-certs https --trust
 ```
 
-- Criar pasta
+- Criar pasta e Exporte o certificado como um arquivo físico, a configuração do seu contêiner exigi um caminho direto
 ```bash
 mkdir %USERPROFILE%\.dotnet\corefx\cryptography\x509stores\mycerts
-```
-
-- Exporte o certificado como um arquivo físico, a configuração do seu contêiner exigi um caminho direto
-```bash
 dotnet dev-certs https -ep %USERPROFILE%\.dotnet\corefx\cryptography\x509stores\mycerts\webApi.pfx -p pa55w0rd
 ```
 
